@@ -1,0 +1,6 @@
+services:
+  parking_lot:
+    build:
+      dockerfile: ./Dockerfile.txt
+    ports:
+      - "5000:5000"
